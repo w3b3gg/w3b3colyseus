@@ -6,4 +6,12 @@ declare global {
       client: Client
     }
   }
+
+  interface GlobalThis {
+    colyseus: {
+      client: Client
+    }
+  }
 }
+
+export { }
