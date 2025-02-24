@@ -1,0 +1,33 @@
+{
+  "main": {
+    "name": "W3B3 Colyseus",
+    "tagline": "Client Colyseus",
+    "version": "0.0.1",
+    "authors": [
+      {
+        "name": "Marco Bruno",
+        "mail": "marco.bruno.dev@proton.me"
+      },
+      {
+        "name": "Royal",
+        "mail": "fakemail@gmail.com"
+      }
+    ],
+    "categories": [
+      "networking"
+    ]
+  },
+  "fields": [
+    {
+      "name": "Colyseus server",
+      "type": "h2"
+    },
+    {
+      "name": "Websocket",
+      "key": "colyseusWs",
+      "type": "text",
+      "default": "http://localhost:2567",
+      "require": true
+    }
+  ]
+}

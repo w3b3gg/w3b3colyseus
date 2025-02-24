@@ -1,0 +1,22 @@
+{
+  "name": "w3b3colyseus",
+  "version": "0.0.1",
+  "description": "Client Colyseus on JavaScript to CTJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ctjs",
+    "colyseus",
+    "multiplayer"
+  ],
+  "author": "Marco Bruno",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  },
+  "dependencies": {
+    "colyseus.js": "^0.15.24"
+  }
+}
